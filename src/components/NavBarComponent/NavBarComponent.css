@@ -1,5 +1,6 @@
 .Navbarstyles{
 
     display: block;
-    background-color: aqua;
+    font-family: fantasy;
+    padding: 10px;
 }
