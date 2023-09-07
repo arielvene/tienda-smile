@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
-import Home from "../pages/Inicio";
+import Inicio from "../pages/Inicio";
 import NavBarComponent from "../components/NavBarComponent/NavBarComponent"
 
 const MainRouter = () => {
