@@ -16,13 +16,12 @@ const NavBarComponent = () =>{
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Item><Link to="/">Inicio</Link></Nav.Item>
-                        <Nav.Link href="#link">contacto</Nav.Link>
+                        
                         <NavDropdown title="categorias" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">zapatillas</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
-                                buzos
+                            <NavDropdown.Item><Link to="/category/laptops">Laptops</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to="/category/smartphones">
+                                Smartphones</Link>
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">remeras</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">
                                 Separated link

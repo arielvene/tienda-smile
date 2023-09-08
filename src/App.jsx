@@ -11,7 +11,7 @@ const App = () => {
     <div>
 <MainRouter/>
 
-<ItemListContainer greeting="bienvenidos a smile..."/>
+
     </div>
 
   )
